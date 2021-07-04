@@ -1,4 +1,4 @@
 export const environment = {
 	production: true,
-	socketPath: 'https://ori-restreamer.azurewebsites.net/'
+	socketPath: 'https://restream.fronkey.net/'
 }

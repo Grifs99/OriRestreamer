@@ -6,7 +6,7 @@
             	{{ player1.name }}
         	</div>
         	<div class="name-signup text">
-            	{{ player1.preferredName }} <span *ngIf="player1.seed">({{ player1.seed }})</span>
+            	{{ player1.preferredName }} <span class="pronoun" *ngIf="player1.pronoun">({{player1.pronoun}})</span> <span *ngIf="player1.seed">({{ player1.seed }})</span>
         	</div>
     	</div>
     	<div class="timers">
@@ -24,7 +24,7 @@
 	            {{ player2.name }}
 	        </div>
 	        <div class="name-signup text">
-                {{ player2.preferredName }} <span *ngIf="player2.seed">({{ player2.seed }})</span>
+                {{ player2.preferredName }} <span *ngIf="player2.pronoun">({{player2.pronoun}})</span> <span *ngIf="player2.seed">({{ player2.seed }})</span>
 	        </div>
 	    </div>
 	</div>
@@ -74,10 +74,7 @@
 
     <div class="title-info">
 		<img class="logo" src="../assets/logo.png">
-        <div class="title">
-            <span *ngIf="vm.tournament == 1">All Skills Tournament 2019</span>
-            <span *ngIf="vm.tournament == 2">All Cells Tournament 2019</span>
-        </div>
+        <div class="title">Randomizer Tournament 2021</div>
     </div>
 
     <div class="matchinfo">
