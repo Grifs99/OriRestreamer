@@ -31,18 +31,18 @@ export class Information {
     players: Array<any> = [
         {
 			'id': 4,
-			'name': 'shedd_bird',
-			'preferredName': 'nari',
-			'pronoun': 'They/Them',
+			'name': 'Grifs99',
+			'preferredName': 'Grifs99',
+			'pronoun': 'He/Him',
 			'seed': '',
 			'statsStartColumn': 'B7',
 			'statsEndColumn': 'K7'
 		},
 		{
 			'id': 5,
-			'name': 'eviona2',
-			'pronoun': '',
-			'preferredName': 'Eviona',
+			'name': 'Frigs',
+			'pronoun': 'He/Him',
+			'preferredName': 'Frigs',
 			'seed': '',
 			'statsStartColumn': 'B9',
 			'statsEndColumn': 'K9'
