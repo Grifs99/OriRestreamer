@@ -12,8 +12,8 @@ export class Information {
     player1_stats: number = 0;
     player2_stats: number = 0;
     currentAudioOnPlayer: number = 1;
-    commentators: string = 'ComentatorOne, ComentatoTwo';
-    background: string = 'LowerBRB';
+    commentators: string = 'ComentatorOne, ComentatorTwo';
+    background: string = 'SwampAfterCleanWater';
 	groupName: string = 'Qualifier/Quarterfinal/Semifinal/Grand Final';
 	matchType: string = this.groupName;
     zoomBracket: boolean = false;
